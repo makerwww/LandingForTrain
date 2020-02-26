@@ -1,0 +1,31 @@
+.Tel-message {
+  display: none;
+  width: 390px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: rgba(255, 0, 0, 0.6);
+  position: absolute;
+  top: 66px;
+  left: 90px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.Tel-message:after {
+  content: "";
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 15px inset transparent;
+  border-left: 15px inset transparent;
+  border-right: 15px solid rgba(255, 0, 0, 0.6);
+  border-bottom: 15px solid rgba(255, 0, 0, 0.6);
+  position: absolute;
+  bottom: -15px;
+  left: 40px;
+}
+/*# sourceMappingURL=styletop.css.map */
